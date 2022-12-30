@@ -1,0 +1,68 @@
+body{
+    background-color: #778899;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin: 0;
+}
+#header-nav{
+    background-color: #e6e6fa;
+    border-radius: 0;
+    border: 0;
+    height: 100px;
+    position: relative;
+   
+}
+
+.navbar-brand{
+    padding-top: 25px ;
+}
+#navbar-id #navbar-brand-div  h1{
+    text-transform: uppercase;
+    color:  #000;
+    position: absolute;
+   bottom: 20%;
+    
+}
+#navbar-brand-div a:hover, #navbar-brand-div a:focus{
+    text-decoration: none;
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+   
+}
+ .navbar-header button.navbar-toggle, .icon-bar{
+    border: solid 1px #8a2be2;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color: #951c49;
+    text-align:center;
+}
+#nav-list a:hover{
+    background-color: #e7e7e7;
+}
+#main-content{
+    background-color: #8a2be2;
+    margin-top: 190px;
+   
+}
+#main-content > h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#text-id{
+    background-color: #e6e6fa;
+    width: 90%;
+   margin: 5%;
+   border: solid 2px black;
+}
+#text-id h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3em;
+
+}
